@@ -1,0 +1,174 @@
+/* src/components/pages/PokemonPage/PokemonPage.css */
+
+.pokemon-page {
+    display: flex;
+    height: 100vh;
+    justify-content: center; /* Alinhar à esquerda */
+    align-items: center; 
+    flex-grow: 1;
+    background-color: #374099;
+    position: relative; /* Adicionando posição relativa para coordenadas absolutas */
+    
+}
+.select{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pokemon-info {
+    position: absolute; /* Posicionamento absoluto para sobrepor */
+    top: 70px; /* Ajustando a distância do topo */
+    right: 0px; /* Ajustando a distância da direita */
+    left: 10px;
+    display: flex;
+    width: 1320px;
+    height: 650px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bfeefc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.pokemon-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    font-weight: bold;
+}
+
+.pokemon-name {
+    font-size: 28px; /* Aumentando o tamanho da fonte */
+    font-weight: bold;
+}
+
+.pokemon-details {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+.pokemon-stats {
+    flex: 1;
+    margin-right: 20px;
+    font-size: 18px; /* Aumentando o tamanho da fonte */
+}
+
+.pokemon-image {
+    position: absolute; /* Posição absoluta para sobrepor */
+    bottom: 460px; /* Ajustando a distância do topo */
+    right: 10px; /* Ajustando a distância da direita */
+   
+}
+
+.evolutions {
+    margin-top: -20px;
+    margin-right: 500px;
+    align-items: center;
+    flex: 1;
+}
+
+.evolutions-title {
+    text-align: center; /* Centralizar o título */
+    margin-bottom: 10px; /* Adicionar espaçamento inferior */
+}
+
+.evolution-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.evolution-info {
+    text-align: center; /* Centralizando o conteúdo */
+}
+
+.evolution-info img {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+.evolution-info p {
+    margin-top: 5px;
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+
+
+.habilities {
+    margin-top: -300px;
+    margin-left: 140px;
+    flex: 1;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #fff990;
+}
+
+.habilities-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.habilities-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.hability {
+    
+    justify-content: space-between;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+.hability p {
+    font-size: 16px;
+}
+
+
+
+.powers {
+    
+   
+    margin-left: 680px;
+    flex: 1;
+    padding:30px;
+    border-radius: 20px;
+    background-color: #fff990;
+    margin-top: -320px;
+    
+}
+
+.powers-title {
+
+    margin-top: -30px;
+}
+
+.powers-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.power {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-bottom: -20px;
+}
+
+.power p {
+    font-size: 18px;
+}

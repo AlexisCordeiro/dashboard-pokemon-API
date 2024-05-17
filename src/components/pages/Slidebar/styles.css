@@ -1,0 +1,50 @@
+.sidebar {
+    width: 200px;
+    height: 94vh;
+    background-color: #00ccff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+  }
+  
+  .logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fffc31;
+    border: 1px solid #000000;
+    cursor: pointer;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar li label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .sidebar li input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .sidebar li.selected {
+    background-color: #e0e0e0;
+  }
+  
